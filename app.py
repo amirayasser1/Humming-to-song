@@ -59,8 +59,8 @@ uploaded_file = st.file_uploader("Upload your humming (WAV/MP3)", type=['wav', '
 with st.sidebar:
     st.header("Settings")
     num_results = st.slider("Number of results to show", 1, 10, 5)
-    win = st.number_input("Window length (s)", min_value=5.0, max_value=30.0, value=12.0, step=1.0)
-    hop = st.number_input("Window hop (s)", min_value=1.0, max_value=10.0, value=3.0, step=1.0)
+    win = st.number_input("Window length (s)", min_value=5.0, max_value=30.0, value=20.0, step=1.0)
+    hop = st.number_input("Window hop (s)", min_value=1.0, max_value=10.0, value=5.0, step=1.0)
     max_sec = st.number_input("Max audio duration (s)", min_value=10.0, max_value=300.0, value=120.0, step=10.0)
     st.markdown("---")
     st.markdown("**How to use:**")
