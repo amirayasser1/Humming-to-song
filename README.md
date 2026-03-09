@@ -1,5 +1,5 @@
 
-#🎵 Humming Song Finder
+# Humming Song Finder🎵
 
 A music information retrieval system that identifies songs from hummed melodies. Upload a recording of yourself humming a tune, and the system will search through a MIDI song database to find the best matches.
 
@@ -154,5 +154,6 @@ The similarity scoring uses weighted features:
 - **Hum the melody**: Focus on the main melodic line, not harmony or rhythm
 - **Sufficient length**: Hum at least 10-15 seconds of the melody
 - **Adjust window size**: Longer windows for slower songs, shorter for faster songs
+
 
 
